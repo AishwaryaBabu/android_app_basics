@@ -35,7 +35,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
+	
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
@@ -45,7 +45,8 @@ public class MainActivity extends Activity implements OnClickListener {
 					passwordText.getText().toString().equals("pass")))
 			{
 				Toast.makeText(this, R.string.login_successful,Toast.LENGTH_SHORT).show();
-				Intent intent1= new Intent(this, ProfileActivity.class);
+				Intent intent1= new Intent(this, MenuActivity.class);
+				//Intent intent1 = new Intent("com.example.app1.MENU");
 				startActivity(intent1);
 			}
 			else
@@ -57,3 +58,26 @@ public class MainActivity extends Activity implements OnClickListener {
 	}
 
 }
+//Another way to define On click
+//loginButton.setOnClickListener(new View.OnClickListener(){
+//public void onClick(View v){}
+//}
+//);
+
+//Thread
+//Thread timer = new Thread(){
+// public void Run(){
+//	try{
+//		sleep(5000);
+//		}
+//catch(InterruptedException e){
+// e.PrintStackTrace();
+//		}
+//finally{
+//		Intent intent1 = new Intent("com.example.app1.nameofJavaclass");
+//		startActivity(intent1);
+//		}
+//	}
+//		
+//};
+//timer.start();
