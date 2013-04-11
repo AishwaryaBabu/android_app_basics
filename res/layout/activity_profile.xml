@@ -17,8 +17,8 @@
         android:id="@+id/archive_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="175dp"
+        android:layout_marginLeft="250dp"
         android:layout_marginTop="300dp"
-        android:text="@string/archive" />
+        android:background="@drawable/clicker" />
 
 </LinearLayout>
