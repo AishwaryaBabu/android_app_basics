@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ImageView;
+//import android.widget.ImageView;
 //import android.widget.PopupMenu;
 //import android.widget.Toast;
 //import android.widget.PopupMenu.OnMenuItemClickListener;
@@ -17,7 +17,7 @@ import android.widget.ImageView;
 public class ProfileActivity extends Activity implements OnClickListener {
 
 	private Button archiveButton;
-	private ImageView profilePic;
+//	private ImageView profilePic;
 
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
@@ -25,7 +25,7 @@ public class ProfileActivity extends Activity implements OnClickListener {
 		
 		archiveButton = (Button) findViewById(R.id.archive_button);
 
-		profilePic = (ImageView) findViewById(R.id.profile_pic);
+//		profilePic = (ImageView) findViewById(R.id.profile_pic);
 		
 		archiveButton.setOnClickListener(this);
 		
