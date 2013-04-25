@@ -15,6 +15,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	private Button loginButton;
 	private EditText usernameText;
 	private EditText passwordText;
+ 
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
